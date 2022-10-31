@@ -1,0 +1,57 @@
+name: mboawaste
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  cloud_firestore: ^4.0.3
+  cupertino_icons: ^1.0.2
+  easy_loading: ^0.0.4
+  equatable: ^2.0.3
+  firebase_auth: ^4.1.0
+  firebase_core: ^2.1.1
+  firebase_messaging: ^14.0.3
+  firebase_storage: ^11.0.3
+  fl_chart: ^0.55.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_easyloading: ^3.0.3
+  flutterfire_ui: ^0.4.3+18
+  google_fonts: ^3.0.1
+  google_maps_flutter: ^2.1.2
+  hooks_riverpod: ^2.0.2
+  iconsax: ^0.0.8
+  line_icons: ^2.0.1
+  persistent_bottom_nav_bar: ^5.0.2
+  reactive_forms: ^14.1.0
+  syncfusion_flutter_charts: ^20.3.52
+  riverpod: ^2.0.2
+  flutter_native_splash: ^2.1.2
+  path_provider: ^2.0.9
+  pdf: ^3.7.3
+  open_document: ^1.0.4
+  sleek_circular_slider: ^2.0.1
+  
+
+
+flutter_native_splash: 
+  background_image: assets/images/splash_screen.png
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/images/
